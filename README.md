@@ -1,7 +1,4 @@
-### helpers
-
-find middle:
-
+##### find middle
 ```javascript
     const low = 1;
     const high = 10;
