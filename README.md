@@ -15,6 +15,9 @@ negative zero
 function isItNegativeZero(x) {
     return x === 0 && (1 / x) === -Infinity;
 }
+
+// note:
+1 / -Infinity // -0
 ```
 
 NaN
