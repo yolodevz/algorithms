@@ -1,7 +1,26 @@
+### Helpers
+
 ##### find middle
 ```javascript
-    const low = 1;
-    const high = 10;
-    
-    Math.floor(low + (high - low) / 2) // 5
+function findMiddle(high, low) {
+    return Math.floor(low + (high - low) / 2)
+}
+```
+
+### Type checking
+
+negative zero
+
+```javascript
+function isItNegativeZero(x) {
+    return x === 0 && (1 / x) === -Infinity;
+}
+```
+
+NaN
+
+```javascript
+function isItNaN(x) {
+    return x !== x;
+}
 ```
